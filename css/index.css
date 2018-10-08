@@ -1,0 +1,49 @@
+body {
+	background-image: url("../img/logo.jpg");
+	background-position: center center;
+	background-size: cover;
+	font-family: 'Raleway', sans-serif;
+}
+
+.cuerpo {
+	width: 90%;
+	margin: 20px auto;
+	border-radius: 15px;
+	padding: 15px 0px;
+}
+
+h4 {
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+.barra-superior{
+  min-height: 10rem;
+}
+
+.barra-superior img {
+	max-height: 10rem;
+	padding: 5px;
+}
+
+
+div[class*="columna"]{
+  min-height: 50rem;
+  border: 1px solid #eceff1;
+}
+div[class*="bloque"]{
+  height: 25rem;
+}
+
+.social > div{
+	padding: 1vw;
+}
+
+.social a{
+	margin: 10px auto;
+}
+
+.imagenPerfil {
+	padding: 30px;
+}
